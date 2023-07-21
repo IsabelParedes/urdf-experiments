@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html urdf/T12/urdf/**/* urdf/T12/meshes/*",
-    "build": "parcel build index.html",
+    "nao": "parcel nao.html nao_description/urdf/**/* nao_meshes/meshes/V40/**/*",
+    "build": "parcel build index.html nao.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
